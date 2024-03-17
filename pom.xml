@@ -27,12 +27,6 @@
 		</repository>
 	</repositories>
 	<dependencies>
-		<dependency>
-			<groupId>e-iceblue</groupId>
-			<artifactId>spire.xls</artifactId>
-			<version>14.2.4</version>
-
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -104,36 +98,7 @@
 			<artifactId>spring-boot-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-csv</artifactId>
-			<version>1.8</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>5.2.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>5.2.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jxls</groupId>
-			<artifactId>jxls-jexcel</artifactId>
-			<version>1.0.9</version>
-		</dependency>
-		<dependency>
-			<groupId>org.dhatim</groupId>
-			<artifactId>fastexcel-reader</artifactId>
-			<version>0.15.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.dhatim</groupId>
-			<artifactId>fastexcel</artifactId>
-			<version>0.15.3</version>
-		</dependency>
+
 
 	</dependencies>
 
