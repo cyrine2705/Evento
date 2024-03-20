@@ -1,8 +1,8 @@
 
-ˆ	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8ñâİ“â1J$ad4660cf-5763-48b7-802a-8ae0e80d5a20
+ˆ	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8ãÕğå1J$8a0850ce-3869-492a-942d-cdcd2c6b1870
 
-java:S2184%"FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8óâİ“â1J$440bea9d-21ee-47be-be2c-ab33206fb013
-“
-java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ş¡ª£8¡œ´èå1J$89f12b21-b611-4db7-acbd-3053d4cac9da
+java:S2184'"FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8æÕğå1J$4e473054-c3cf-4d15-813c-d6af25b246e8
 …
-java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ8ãİ“â1J$335f8307-3082-4da6-920a-4045ef4ff4b3
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8øÕğå1J$0a410f05-2b8b-4787-b48e-8c2bc2590e5c
+ƒ
+java:S1193:"@Replace the usage of the "instanceof" operator by a catch block.(ÃÇşÈ8‚Õğå1J$dc7355e3-dd16-4b20-b48b-b9f597e15404

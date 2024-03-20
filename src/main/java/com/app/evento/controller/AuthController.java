@@ -30,10 +30,10 @@ public class AuthController {
 
     private final AuthService authService;
     @PostMapping("/login")
-    public ResponseEntity<String> authRequest(@RequestBody AuthRequestDto authRequestDto) {
+    public ResponseEntity<String> login(@RequestBody AuthRequestDto authRequestDto) {
         log.info("tawa bech nodo5lou lel app ", authRequestDto);
         var userRegistrationResponse = authService.authRequest(authRequestDto);
-        log.info("Yey hana d5alna", userRegistrationResponse);
+
         return userRegistrationResponse;
     }
     @PostMapping("/signup")
