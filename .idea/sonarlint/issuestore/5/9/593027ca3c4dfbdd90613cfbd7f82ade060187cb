@@ -1,8 +1,8 @@
 
-b	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8ñâİ“â1
-h
-java:S2184%"FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8óâİ“â1
-m
-java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ş¡ª£8‹ãİ“â1
-_
-java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ8ãİ“â1
+ˆ	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8ñâİ“â1J$ad4660cf-5763-48b7-802a-8ae0e80d5a20
+
+java:S2184%"FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8óâİ“â1J$440bea9d-21ee-47be-be2c-ab33206fb013
+“
+java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ş¡ª£8¡œ´èå1J$89f12b21-b611-4db7-acbd-3053d4cac9da
+…
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ8ãİ“â1J$335f8307-3082-4da6-920a-4045ef4ff4b3

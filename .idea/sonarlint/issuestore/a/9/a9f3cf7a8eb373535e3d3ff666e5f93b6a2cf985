@@ -1,13 +1,11 @@
 
-E
-java:S5411)"(Use a primitive boolean expression here.(‡Ö…²8•³¡“â1
-E
-java:S54110"(Use a primitive boolean expression here.(Œ‰ÓŒ8–³¡“â1
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8š³¡“â1
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8š³¡“â1
-b
-java:S4684("@Replace this persistent entity with a simple POJO or DTO object.(Òó¸Þüÿÿÿÿ8¤³¡“â1
-C
-java:S1452G"&Remove usage of generic wildcard type.(¸ù¬Ù8­³¡“â1
+k
+java:S5411)"(Use a primitive boolean expression here.(‡Ö…²8Žž´èå1J$e8073a8f-1c0d-4493-8564-5ec31e0d383b
+k
+java:S54110"(Use a primitive boolean expression here.(Œ‰ÓŒ8Žž´èå1J$0aa3d144-f620-4bf7-8556-65fa4d0b2e71
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8š³¡“â1J$6545062d-e7d3-4f00-9366-e7447d8dff96
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8š³¡“â1J$1b22a200-dcfa-4929-9977-c54a3cefb6dd
+i
+java:S1452G"&Remove usage of generic wildcard type.(¸ù¬Ù8­³¡“â1J$e0f024aa-4b1e-4195-a3f3-ca9f85bdd526

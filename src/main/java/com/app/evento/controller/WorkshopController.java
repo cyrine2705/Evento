@@ -25,7 +25,7 @@ public class WorkshopController {
             Workshop savedWorkshop = workshopService.addWorkshop(workshop);
             return new ResponseEntity<>(savedWorkshop, HttpStatus.CREATED);
         } catch (Exception e) {
-            // Handle other unexpected exceptions (consider logging)
+
             return new ResponseEntity("An error occurred" , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

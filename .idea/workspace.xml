@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dd9c68a-3c19-43b4-9733-450b727ea417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/593027ca3c4dfbdd90613cfbd7f82ade060187cb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/593027ca3c4dfbdd90613cfbd7f82ade060187cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a8115d2af5ab08c425718d7058d664a139534e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d80d6aa8ba2bef62e88db191157e65228fa1ee6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d80d6aa8ba2bef62e88db191157e65228fa1ee6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a4b1bd08c2084ac511d02b44ac56b6ad51878bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a4b1bd08c2084ac511d02b44ac56b6ad51878bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9f3cf7a8eb373535e3d3ff666e5f93b6a2cf985" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9f3cf7a8eb373535e3d3ff666e5f93b6a2cf985" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf1a8b3838f4e68a5b2291214b769ab55bfdb3f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/9/69a8115d2af5ab08c425718d7058d664a139534e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf1a8b3838f4e68a5b2291214b769ab55bfdb3f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/WorkshopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/WorkshopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +62,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.SpringBootProjectApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/siwar/Desktop/freelance/site google/google.ch.backend",
+    "last_opened_file_path": "C:/Users/siwar/Desktop/freelance/evento",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +74,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "826169e85e21a0ebff6822189c653467",
     "vue.rearranger.settings.migration": "true"
   }
@@ -162,6 +178,10 @@
       <workItem from="1710264891846" duration="12217000" />
       <workItem from="1710279938345" duration="1355000" />
       <workItem from="1710605201818" duration="7210000" />
+      <workItem from="1710679577609" duration="671000" />
+      <workItem from="1710680267791" duration="4033000" />
+      <workItem from="1710958088128" duration="975000" />
+      <workItem from="1710970521693" duration="4012000" />
     </task>
     <servers />
   </component>
@@ -175,11 +195,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/app/evento/controller/EventController.java</url>
           <line>21</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/app/evento/service/impl/JwtServiceImpl.java</url>
