@@ -1,3 +1,10 @@
 
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(þå‘á8ÆøÄðå1J$8dbda9f8-79ae-43b6-a369-2eaa299e0ff8
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8™Ò×Òà1J$fd7073e5-4d51-4a69-8f62-065a9727105c
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8™Ò×Òà1J$4272f1ac-d7c2-415b-b30a-f0d093840388
+ˆ
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.( ²€çûÿÿÿÿ8ØøÄðå1J$f43c8916-30f1-49af-85ed-3a55038990f1
+¯
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(þå‘á8ÞøÄðå1J$18926433-5afe-4cce-9b48-4fb911be724a
+ƒ
+java:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(ÅõÍ‰8ßøÄðå1J$67de4166-3ad7-4269-a6e0-919a597f3499
