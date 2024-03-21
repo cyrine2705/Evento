@@ -1,11 +1,11 @@
 
 ’
-java:S1192&"ODefine a constant instead of duplicating this literal "/api/events/**" 4 times.(øÊÎ§8ÚöÄåä1J$13932ef4-fad1-4e9e-a223-252a80f19fe4
+java:S1192&"ODefine a constant instead of duplicating this literal "/api/events/**" 4 times.(øÊÎ§8ÚöÄåä1J$7b8f0ea5-ab91-4f2c-932c-c12b046deb6a
 •
-java:S1192)"RDefine a constant instead of duplicating this literal "/api/workshops/**" 3 times.(õ‡ÓÈ8ÛöÄåä1J$d080b08a-4fdf-471c-adef-5cd93931b996
+java:S1192)"RDefine a constant instead of duplicating this literal "/api/workshops/**" 3 times.(õ‡ÓÈ8ÛöÄåä1J$4d853ed9-943b-4f92-a1e1-6fd66887735f
 ‰
-java:S1192&"FDefine a constant instead of duplicating this literal "ADMIN" 6 times.(øÊÎ§8ÛöÄåä1J$c13ed507-3928-4898-9fac-3358b1a30ddc
+java:S1192&"FDefine a constant instead of duplicating this literal "ADMIN" 6 times.(øÊÎ§8ÛöÄåä1J$4d633abd-6186-4f6d-8207-7db358bd1914
 ’
-java:S1192&"ODefine a constant instead of duplicating this literal "/api/guests/**" 4 times.(øÊÎ§8ÛöÄåä1J$915cf512-8149-4dce-815e-827001caa387
+java:S1192&"ODefine a constant instead of duplicating this literal "/api/guests/**" 4 times.(øÊÎ§8ÛöÄåä1J$f54fa3cf-5338-40ca-a696-9ead17734273
 
-java:S1874#"9Remove this use of "authorizeRequests"; it is deprecated.(ÃÆßßúÿÿÿÿ8ööÄåä1J$464bcc91-47fa-4000-bffb-4d96a4c91184
+java:S1874#"9Remove this use of "authorizeRequests"; it is deprecated.(ÃÆßßúÿÿÿÿ8ööÄåä1J$870b00dd-0c74-4f84-97da-344b514f3f39

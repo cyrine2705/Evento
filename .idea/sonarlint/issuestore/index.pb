@@ -67,3 +67,13 @@ l
 <src/main/java/com/app/evento/controller/GuestController.java,3\6\36cbcf44b4bbed662571a5de05854b2ecb2ff6aa
 o
 ?src/main/java/com/app/evento/controller/WorkshopController.java,4\2\426b0ff370b00a6b294360c64d22032d727ebb65
+h
+8src/main/java/com/app/evento/payload/AuthRequestDto.java,3\d\3d17b5f4a996218841d2215745ebd854e039e6de
+e
+5src/main/java/com/app/evento/payload/AuthRequest.java,5\a\5a07c04582b3efcc410b39a71601c3bea48e205b
+n
+>src/main/java/com/app/evento/repositories/GuestRepository.java,1\0\10b7aaddd06735ed5ebb2e53dd90672d136272e4
+n
+>src/main/java/com/app/evento/repositories/EventRepository.java,8\2\82c6cc5d8eb48f359b6fe31e85b322811738f24d
+q
+Asrc/main/java/com/app/evento/repositories/WorkshopRepository.java,4\a\4a5cdabb8f28af532e6061a4c1e48947aef605f8

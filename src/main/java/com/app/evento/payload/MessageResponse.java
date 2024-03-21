@@ -1,4 +1,4 @@
-package com.app.evento.models;
+package com.app.evento.payload;
 
 import lombok.*;
 

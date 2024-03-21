@@ -1,13 +1,9 @@
 
-³
-java:S1488#"pImmediately return this expression instead of assigning it to the temporary variable "userRegistrationResponse".(¹ŞÉç8¸®×ğå1J$48668e87-4be8-4a27-b487-9c235faacfa3
-k
-java:S5411)"(Use a primitive boolean expression here.(‡Ö…²8´èå1J$d9e03bad-3c6c-4d97-87dd-3723b62c7427
-k
-java:S54110"(Use a primitive boolean expression here.(Œ‰ÓŒ8´èå1J$b2f7f588-5fcc-4d25-baba-0e2a0a93633f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8š³¡“â1J$0df311a2-1061-4d11-8425-7f9fe6f63fa7
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8€í÷òå1J$f44d59f3-281b-4db9-83aa-94249dc5fd41
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8š³¡“â1J$c5da4318-7dc9-4936-bf45-721398d01fc7
-i
-java:S1452G"&Remove usage of generic wildcard type.(¸ù¬Ù8­³¡“â1J$cb978084-25bc-4df7-a714-3c3a456acc2e
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8í÷òå1J$94031ebe-f08e-4010-995b-0fc730608ed5
+n
+java:S1452F"&Remove usage of generic wildcard type.(áô´Øüÿÿÿÿ8”í÷òå1J$543a46b5-72d3-4765-b266-4aee46baad38
+n
+java:S1452P"&Remove usage of generic wildcard type.(€Á˜‚øÿÿÿÿ8•í÷òå1J$87b5a454-b061-4a86-93cb-f1cba031de18

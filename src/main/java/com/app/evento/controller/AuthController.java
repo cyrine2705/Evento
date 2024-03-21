@@ -1,9 +1,8 @@
 package com.app.evento.controller;
 
-import com.app.evento.dto.AuthRequestDto;
+import com.app.evento.payload.AuthRequest;
 import com.app.evento.dto.UserDto;
-import com.app.evento.enums.Role;
-import com.app.evento.models.MessageResponse;
+import com.app.evento.payload.MessageResponse;
 import com.app.evento.models.User;
 import com.app.evento.repositories.UserRepository;
 import com.app.evento.service.AuthService;
@@ -30,22 +29,22 @@ public class AuthController {
 
     private final AuthService authService;
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestBody AuthRequestDto authRequestDto) {
-        log.info("tawa bech nodo5lou lel app ", authRequestDto);
-        var userRegistrationResponse = authService.authRequest(authRequestDto);
+    public ResponseEntity<String> login(@RequestBody AuthRequest authRequestDto) {
+        log.info("tawa bech nodo5lou lel app ");
+       return authService.authRequest(authRequestDto);
 
-        return userRegistrationResponse;
+
     }
     @PostMapping("/signup")
     public ResponseEntity<MessageResponse> registerUser(@Valid @RequestBody UserDto signUpRequest) {
-        if (userRepository.existsByUsername(signUpRequest.getUsername())) {
+        if (Boolean.TRUE.equals(userRepository.existsByUsername(signUpRequest.getUsername()))) {
             log.debug("username mestaamel");
             return ResponseEntity
                     .badRequest()
                     .body(new MessageResponse("Error: Username is already taken!"));
         }
 
-        if (userRepository.existsByEmail(signUpRequest.getEmail())) {
+        if (Boolean.TRUE.equals(userRepository.existsByEmail(signUpRequest.getEmail()))) {
             log.debug("email mestaamel");
             return ResponseEntity
                     .badRequest()
@@ -68,14 +67,18 @@ public class AuthController {
     }
 
     @PostMapping("/request-password")
-    public ResponseEntity<?> resetPassword(@RequestBody String email, HttpServletRequest request) throws Exception {
+    public ResponseEntity<?> requestPassword(@RequestBody String email) throws Exception {
         try {
-            authService.resetPassword(email, request);
+            authService.requestChangePassword(email);
             return ResponseEntity.ok().build();
         } catch (Exception e) {
 
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-
+    @PostMapping("/reset_password")
+    public ResponseEntity<?> resetPasswordWithToken(@RequestParam String token, @RequestBody  String password) throws Exception {
+        authService.changePassword(token, password);
+        return ResponseEntity.ok().build();
+    }
 }
