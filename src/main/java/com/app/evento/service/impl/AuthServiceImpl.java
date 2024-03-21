@@ -97,7 +97,7 @@ public class AuthServiceImpl implements AuthService {
             throw new Exception("Token has expired");
         }
 
-        user.setPassword(passwordEncoder.encode(newPassword));
+        user.setPassword(passwordEncoder.encode(newPassword.replace("\"","")));
         user.setResetToken(null);
         user.setResetTokenExpiration(null);
         userRepository.save(user);
