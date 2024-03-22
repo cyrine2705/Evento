@@ -1,21 +1,0 @@
-
-p
-java:S3740"/Provide the parametrized type for this generic.(§ûŒ¢ûÿÿÿÿJ$29bceef1-edbc-40af-b2aa-9e5f737320c2
-“
-java:S1192"RDefine a constant instead of duplicating this literal "An error occurred" 5 times.(§ûŒ¢ûÿÿÿÿJ$6d7160f1-91a9-412c-9ca3-c2e30db0d424
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$dead0642-8ffe-4fcf-83ce-2224f6a6300b
-{
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ÆŒ™J$31440d71-c772-421c-b697-ad2c3c64391c
-g
-java:S1452""&Remove usage of generic wildcard type.(´÷¯ÍùÿÿÿÿJ$e7b8f177-044e-47c5-82ab-bcc7a511b7ca
-|
-java:S46843"@Replace this persistent entity with a simple POJO or DTO object.(ýº¨þJ$6d0e353e-7529-4202-add6-9cc7b600986b
-b
-java:S14523"&Remove usage of generic wildcard type.(ýº¨þJ$f12a4aa5-86f7-4fb7-92ed-f1da4c6ed354
-g
-java:S1452>"&Remove usage of generic wildcard type.(ýð’çüÿÿÿÿJ$46ebc870-25df-421b-871b-5192ea5d7dd3
-b
-java:S1452I"&Remove usage of generic wildcard type.(ÂÄúáJ$b9755a10-53d9-41e8-8cfe-c7b0a1e973c0
-g
-java:S1452S"&Remove usage of generic wildcard type.(¥Õþ³ÿÿÿÿÿJ$4dddf680-f9aa-4936-a2b7-a943540b497c

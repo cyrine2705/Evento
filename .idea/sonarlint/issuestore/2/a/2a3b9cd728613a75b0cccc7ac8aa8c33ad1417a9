@@ -1,8 +1,0 @@
-
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(í¼–í8Î›ÒÒà1
-b	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(í¼–í8Î›ÒÒà1
-b	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(í¼–í8Ï›ÒÒà1
-v
-java:S1192"YDefine a constant instead of duplicating this literal "pas de event avec cet Id" 3 times.(í¼–í8Ï›ÒÒà1
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ö›ÒÒà1
