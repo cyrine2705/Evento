@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dd9c68a-3c19-43b4-9733-450b727ea417" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2802761b065f23c0b2a18c82a7127619c62d9ecd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2802761b065f23c0b2a18c82a7127619c62d9ecd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/593027ca3c4dfbdd90613cfbd7f82ade060187cb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/593027ca3c4dfbdd90613cfbd7f82ade060187cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a4b1bd08c2084ac511d02b44ac56b6ad51878bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a4b1bd08c2084ac511d02b44ac56b6ad51878bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9f3cf7a8eb373535e3d3ff666e5f93b6a2cf985" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9f3cf7a8eb373535e3d3ff666e5f93b6a2cf985" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f977af5da225fe122112ad0ed1a173b4ef96d0b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f977af5da225fe122112ad0ed1a173b4ef96d0b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/service/impl/AuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +178,11 @@
       <workItem from="1710680267791" duration="4033000" />
       <workItem from="1710958088128" duration="975000" />
       <workItem from="1710970521693" duration="5749000" />
-      <workItem from="1710979304383" duration="7738000" />
+      <workItem from="1710979304383" duration="14750000" />
+      <workItem from="1711037467985" duration="310000" />
+      <workItem from="1711056817882" duration="4205000" />
+      <workItem from="1711063852313" duration="2029000" />
+      <workItem from="1711071013872" duration="2909000" />
     </task>
     <servers />
   </component>

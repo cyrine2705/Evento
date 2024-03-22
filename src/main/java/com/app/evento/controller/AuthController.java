@@ -81,4 +81,17 @@ public class AuthController {
         authService.changePassword(token, password);
         return ResponseEntity.ok().build();
     }
+    @PostMapping( "verifyToken/{token}")
+    public ResponseEntity<?> processResetPassword(@PathVariable String token) {
+        try {
+
+            authService.verifyTokenExpiration(token);
+
+
+            return ResponseEntity.ok().build();
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
 }

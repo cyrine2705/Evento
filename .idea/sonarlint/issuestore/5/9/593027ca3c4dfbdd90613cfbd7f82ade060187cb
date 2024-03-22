@@ -1,10 +1,12 @@
 
-ˆ	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8–í©óå1J$709e3425-df9e-42a7-bd51-989a2cde33b0
-	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(ƒ¤Ì¥ıÿÿÿÿ8–í©óå1J$f3996e49-58d1-44be-b78d-63fe8b29605a
-	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(ªš¸Šüÿÿÿÿ8–í©óå1J$c4017fc3-bc50-4f77-b5bf-272eeb2e8c18
+ˆ	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§8–í©óå1J$973ba973-94d0-4058-a5aa-d7d1a384836a
+	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(ƒ¤Ì¥ıÿÿÿÿ8–í©óå1J$aba5bedf-949e-44e5-9a0c-49a54fb05d0c
+	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(ªš¸Šüÿÿÿÿ8–í©óå1J$19f1315a-6944-42f5-a777-84c7a0bc9923
+‡	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(¸ø¸;8ù¢Êšæ1J$e0e999de-9f6a-4a49-b151-a3deebb38048
+	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(ªš¸Šüÿÿÿÿ8ù¢Êšæ1J$4f5231cf-77fa-45da-8cbc-cbab1e4ae2f5
 
-java:S2184("FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8˜í©óå1J$27377f12-9b1c-4714-98b8-f06cc9a872ae
+java:S2184("FCast one of the operands of this multiplication operation to a "long".(»ĞØñùÿÿÿÿ8˜í©óå1J$1a6db815-93cc-400b-a943-d9ac810c9c64
 …
-java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8§í©óå1J$d064d4db-79c4-4299-ba73-a8b10334ecd6
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8§í©óå1J$db3f2f05-d340-4752-945f-e634ee4b5638
 ƒ
-java:S1193;"@Replace the usage of the "instanceof" operator by a catch block.(ÃÇşÈ8­í©óå1J$305d8190-39b5-4e17-a84d-afd5c11f4191
+java:S1193;"@Replace the usage of the "instanceof" operator by a catch block.(ÃÇşÈ8­í©óå1J$8590fb19-d6bb-48a9-8667-192901f674f1

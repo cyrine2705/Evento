@@ -88,6 +88,9 @@ public class AuthServiceImpl implements AuthService {
     }
     public void changePassword(String token, String newPassword) throws Exception {
 
+
+
+        log.info(newPassword.replace("\"",""));
         Optional<User> userOptional = userRepository.findByResetToken(token);
         if (userOptional.isEmpty()) {
             throw new Exception("invalid Token");
@@ -101,6 +104,16 @@ public class AuthServiceImpl implements AuthService {
         user.setResetToken(null);
         user.setResetTokenExpiration(null);
         userRepository.save(user);
+    }
+    public void verifyTokenExpiration(String token) throws Exception {
+        Optional<User> userOptional = userRepository.findByResetToken(token);
+        if (userOptional.isEmpty()) {
+            throw new Exception("Invalid token");
+        }
+        User user = userOptional.get();
+        if (user.getResetTokenExpiration().before(new Date())) {
+            throw new Exception("Token has expired");
+        }
     }
 
 }
