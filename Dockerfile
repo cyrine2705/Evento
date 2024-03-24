@@ -10,6 +10,6 @@ RUN mvn -B -s /usr/share/maven/ref/settings-docker.xml package
 # Final stage
 FROM openjdk:17
 WORKDIR /app
-COPY --from=build /build/target/evento-0.0.1-SNAPSHOT.jar /app/Evento.jar
+COPY --from=build /build/target/evento-0.0.1-SNAPSHOT.jar /app/evento.jar
 EXPOSE 8080
 CMD ["java", "-jar", "evento.jar"]
