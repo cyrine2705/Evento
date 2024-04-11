@@ -29,7 +29,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
-@Slf4j //hedhi annotation taa log
+@Slf4j
 public class AuthServiceImpl implements AuthService {
     @Autowired
     UserRepository userRepository;
@@ -65,7 +65,7 @@ public class AuthServiceImpl implements AuthService {
         }
     }
 
-    public String getToken( UserDetails userDetails) {
+    private String getToken( UserDetails userDetails) {
         final var roles = userDetails.getAuthorities();
         final var username =  userDetails.getUsername();
         return jwtService.generateToken(Map.of("role", roles), username);
@@ -114,6 +114,14 @@ public class AuthServiceImpl implements AuthService {
         if (user.getResetTokenExpiration().before(new Date())) {
             throw new Exception("Token has expired");
         }
+    }
+    public User getUserInfo(String email)throws Exception{
+        Optional<User> userOptional = userRepository.findByEmail(email);
+        if (userOptional.isEmpty()) {
+            throw new Exception("Invalid email");
+        }
+
+       return userOptional.get();
     }
 
 }

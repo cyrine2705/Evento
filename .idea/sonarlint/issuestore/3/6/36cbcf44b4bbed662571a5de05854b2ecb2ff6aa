@@ -1,11 +1,7 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(é»ïÇJ$aed09dd7-59c4-4ccc-a417-ba580051d40d
-	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(é»ïÇJ$fa01bfb8-41ad-42c8-883f-8bb5c80efdd8
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8úçƒíì1
-
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ØËŒ©ûÿÿÿÿJ$97ae66e7-d44e-4fe0-ac4d-cbde6222d1b6
-|
-java:S4684'"@Replace this persistent entity with a simple POJO or DTO object.(ÑóÚšJ$f4e441e5-2c01-47fb-a9d1-72ceebc23e4c
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(é»ïÇJ$046146ed-c48a-4233-a659-b0f72367808b
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(é»ïÇJ$009fb95e-89db-4217-b741-5b367b4dee63
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8úçƒíì1J$c2bb505a-f43d-4c22-ac94-36bd54a91a60
 b
-java:S1452D"&Remove usage of generic wildcard type.(ğÎé¼J$71422267-28ad-4012-9093-d165be414537
+java:S1452D"&Remove usage of generic wildcard type.(ğÎé¼J$34ad88a2-0786-42c6-909e-aff5b874846d

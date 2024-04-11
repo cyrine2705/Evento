@@ -32,8 +32,6 @@ public class AuthController {
     public ResponseEntity<String> login(@RequestBody AuthRequest authRequestDto) {
         log.info("tawa bech nodo5lou lel app ");
        return authService.authRequest(authRequestDto);
-
-
     }
     @PostMapping("/signup")
     public ResponseEntity<MessageResponse> registerUser(@Valid @RequestBody UserDto signUpRequest) {
@@ -93,5 +91,17 @@ public class AuthController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
+    @GetMapping("/userInfos")
+    public ResponseEntity<?> getUserInfo( @RequestBody String email) {
 
+        try {
+
+           User u = authService.getUserInfo(email);
+
+
+            return ResponseEntity.ok(u);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
 }
