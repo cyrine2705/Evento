@@ -33,7 +33,7 @@ public class SecurityConfig {
                 .cors(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeRequests().requestMatchers("/actuator/**","/swagger-ui/**","/v3/api-docs",
-                        "/api/auth/**",
+                        "/api/auth/**", "/api/file/**",
                         "/v3/api-docs/swagger-config").anonymous()
                 .requestMatchers(HttpMethod.POST  ,"/api/events/**","/api/guests/**").hasAuthority("ADMIN")
                 .requestMatchers(HttpMethod.GET  ,"/api/events/**").hasAuthority("ADMIN")

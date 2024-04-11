@@ -1,0 +1,11 @@
+
+l
+java:S1192&"ODefine a constant instead of duplicating this literal "/api/events/**" 4 times.(øÊÎ§8Ü§ íì1
+o
+java:S1192)"RDefine a constant instead of duplicating this literal "/api/workshops/**" 3 times.(õ‡ÓÈ8ä§ íì1
+c
+java:S1192&"FDefine a constant instead of duplicating this literal "ADMIN" 6 times.(øÊÎ§8ó§ íì1
+l
+java:S1192&"ODefine a constant instead of duplicating this literal "/api/guests/**" 4 times.(øÊÎ§8ı§ íì1
+[
+java:S1874#"9Remove this use of "authorizeRequests"; it is deprecated.(ÃÆßßúÿÿÿÿ8Ÿ¨ íì1

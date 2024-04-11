@@ -22,6 +22,8 @@ public class User  {
   private String username;
   private String email;
   private String password;
+  private String phone;
+  private String image;
   private Role role;
   private String resetToken;
   private Date resetTokenExpiration;
