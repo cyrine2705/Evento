@@ -5,15 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dd9c68a-3c19-43b4-9733-450b727ea417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/evento.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/SpringBootProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/EventController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/GuestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/controller/WorkshopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/AgentDto$AgentDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/AgentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/GuestDto$GuestDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/GuestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/UserDto$UserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/enums/Civility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/exceptions/GuestNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/exceptions/WorkshopNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/filter/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Event$EventBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Guest$GuestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Guest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Workshop$WorkshopBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/models/Workshop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/payload/AuthRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/payload/MessageResponse$MessageResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/payload/MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/repositories/EventRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/repositories/GuestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/repositories/WorkshopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/EventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/GuestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/WorkshopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/EmailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/EventServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/FileServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/GuestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/JwtServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/UserDetailsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/service/impl/WorkshopServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/evento/utils/ServletUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailTemplate/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailTemplate/eventoCover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailTemplate/eventoLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailTemplate/insta_fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/evento-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/evento-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +261,7 @@
       <workItem from="1712413409488" duration="1193000" />
       <workItem from="1712535883641" duration="28000" />
       <workItem from="1712535927500" duration="75000" />
-      <workItem from="1712780753310" duration="3447000" />
+      <workItem from="1712780753310" duration="3747000" />
     </task>
     <servers />
   </component>
