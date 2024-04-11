@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dd9c68a-3c19-43b4-9733-450b727ea417" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/evento/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +198,7 @@
       <workItem from="1712535883641" duration="28000" />
       <workItem from="1712535927500" duration="75000" />
       <workItem from="1712780753310" duration="4693000" />
-      <workItem from="1712850975409" duration="3063000" />
+      <workItem from="1712850975409" duration="3438000" />
     </task>
     <servers />
   </component>

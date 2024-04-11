@@ -54,6 +54,8 @@ public class AuthController {
                 .lastName(signUpRequest.getLastName())
                 .username(signUpRequest.getUsername())
                 .email(signUpRequest.getEmail())
+                .phone(signUpRequest.getPhone())
+                .image(signUpRequest.getImage())
                 .role(signUpRequest.getRole())
                 .password(encoder.encode(signUpRequest.getPassword()))
                 .build();
