@@ -91,8 +91,8 @@ public class AuthController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-    @GetMapping("/userInfos")
-    public ResponseEntity<?> getUserInfo( @RequestBody String email) {
+    @GetMapping("/userInfos/{email}")
+    public ResponseEntity<?> getUserInfo( @PathVariable String email) {
 
         try {
 
